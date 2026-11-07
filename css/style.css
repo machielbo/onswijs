@@ -6,9 +6,9 @@
 }
 
 :root {
-    --primary-color: #4a6fa5;
-    --primary-dark: #2c4a73;
-    --secondary-color: #6b8cae;
+    --primary-color: #908c8a;
+    --primary-dark: #7a7674;
+    --secondary-color: #a8a4a2;
     --accent-color: #f8b400;
     --light-color: #f5f7fa;
     --dark-color: #2c3e50;
@@ -185,6 +185,7 @@ body {
 .hamburger::after {
     top: 8px;
 }
+
 /* Hero section */
 .hero {
     background: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%);
@@ -293,6 +294,7 @@ body {
     font-size: 1.05rem;
     color: var(--text-color);
 }
+
 /* Services overview */
 .services-overview {
     padding: 80px 0;
@@ -378,6 +380,7 @@ body {
 .contact-info .btn:hover {
     background-color: #e6a100;
 }
+
 /* Footer */
 .footer {
     background-color: var(--dark-color);
@@ -428,6 +431,7 @@ body {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.6);
 }
+
 /* Page header */
 .page-header {
     background-color: var(--light-color);
@@ -547,9 +551,10 @@ body {
 .sidebar-card a:hover {
     color: var(--primary-color);
 }
+
 /* Service details */
 .service-detail {
-    background-color: rgba(74, 111, 165, 0.05);
+    background-color: rgba(144, 140, 138, 0.05);
     padding: 20px;
     border-radius: var(--border-radius);
     margin-bottom: 25px;
@@ -579,6 +584,7 @@ body {
 .cta-section p {
     margin-bottom: 20px;
 }
+
 /* Contact page */
 .contact-container {
     display: grid;
@@ -697,7 +703,7 @@ body {
 .form-group textarea:focus {
     outline: none;
     border-color: var(--primary-color);
-    box-shadow: 0 0 0 2px rgba(74, 111, 165, 0.2);
+    box-shadow: 0 0 0 2px rgba(144, 140, 138, 0.2);
 }
 
 .form-group textarea {
@@ -768,6 +774,7 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 /* Legal content */
 .legal-content {
     background-color: var(--white);
@@ -856,6 +863,7 @@ body {
     color: var(--primary-dark);
     font-size: 0.95rem;
 }
+
 /* Responsive design */
 @media (max-width: 992px) {
     .hero .container {
