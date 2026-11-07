@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact OnsWijs - Neem contact op voor onderwijsgerelateerde begeleiding">
+    <title>Contact - OnsWijs</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>OnsWijs</h1>
+                <p class="tagline">Wijs in Onderwijs</p>
+            </div>
+            <nav class="main-nav">
+                <button class="mobile-menu-toggle" aria-label="Menu">
+                    <span class="hamburger"></span>
+                </button>
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="over-ons.html">Over OnsWijs</a></li>
+                    <li class="dropdown">
+                        <a href="#">Diensten <span class="arrow">▼</span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="diensten/schoolwijs.html">SchoolWijs</a></li>
+                            <li><a href="diensten/teamwijs.html">TeamWijs</a></li>
+                            <li><a href="diensten/kindwijs.html">KindWijs</a></li>
+                            <li><a href="diensten/jijwijs.html">JijWijs</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="https://www.vertrouwenswerk.nl" target="_blank">Vertrouwenswerk.nl</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Contact</h1>
+                <p class="breadcrumb"><a href="index.html">Home</a> / Contact</p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container">
+                <div class="contact-container">
+                    <article class="contact-info">
+                        <h2>Neem contact met ons op</h2>
+                        <p>
+                            Heeft u vragen over onze diensten of wilt u een afspraak maken?
+                            Neem dan gerust contact met ons op. Wij helpen u graag verder.
+                        </p>
+
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <h3>Email</h3>
+                                <p><a href="mailto:info@onswijs.nl">info@onswijs.nl</a></p>
+                            </div>
+                            <div class="contact-item">
+                                <h3>Telefoon</h3>
+                                <p><a href="tel:+31620537095">06 20537095</a></p>
+                            </div>
+                        </div>
+
+                        <div class="contact-note">
+                            <p>
+                                <strong>Let op:</strong> OnsWijs is opgericht door Marijke Creemers.
+                                Voor vragen over Vertrouwenswerk.nl kunt u terecht op <a href="https://www.vertrouwenswerk.nl" target="_blank">www.vertrouwenswerk.nl</a>.
+                            </p>
+                        </div>
+
+                        <div class="social-media">
+                            <h3>Volg Ons</h3>
+                            <p>(Social media links kunnen hier worden toegevoegd)</p>
+                        </div>
+                    </article>
+
+                    <article class="contact-form">
+                        <h2>Stuur ons een bericht</h2>
+                        <form id="contactForm" action="#" method="POST">
+                            <div class="form-group">
+                                <label for="name">Naam *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Telefoonnummer</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Onderwerp *</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="" disabled selected>Selecteer een onderwerp</option>
+                                    <option value="schoolwijs">SchoolWijs</option>
+                                    <option value="teamwijs">TeamWijs</option>
+                                    <option value="kindwijs">KindWijs</option>
+                                    <option value="jijwijs">JijWijs</option>
+                                    <option value="algemeen">Algemene vraag</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Bericht *</label>
+                                <textarea id="message" name="message" rows="6" required></textarea>
+                            </div>
+
+                            <div class="form-group checkbox-group">
+                                <input type="checkbox" id="privacy" name="privacy" required>
+                                <label for="privacy">Ik ga akkoord met de <a href="privacy.html">privacyverklaring</a> *</label>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Versturen</button>
+                        </form>
+
+                        <div id="formMessage" class="form-message"></div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="map-section">
+            <div class="container">
+                <h2>Onze Locatie</h2>
+                <p>OnsWijs is gevestigd in Nederland en werkt door het hele land.</p>
+                <div class="map-placeholder">
+                    <p>(Hier kan een kaart of adresinformatie worden toegevoegd)</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>OnsWijs</h3>
+                    <p>Wijs in Onderwijs</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Snelle Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="over-ons.html">Over Ons</a></li>
+                        <li><a href="diensten/schoolwijs.html">SchoolWijs</a></li>
+                        <li><a href="diensten/teamwijs.html">TeamWijs</a></li>
+                        <li><a href="diensten/kindwijs.html">KindWijs</a></li>
+                        <li><a href="diensten/jijwijs.html">JijWijs</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p><a href="mailto:info@onswijs.nl">info@onswijs.nl</a></p>
+                    <p><a href="tel:+31620537095">06 20537095</a></p>
+                </div>
+                <div class="footer-section">
+                    <h3>Overig</h3>
+                    <ul>
+                        <li><a href="privacy.html">Privacyverklaring</a></li>
+                        <li><a href="leveringsvoorwaarden.html">Leveringsvoorwaarden</a></li>
+                        <li><a href="referenties.html">Referenties</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 OnsWijs. Alle rechten voorbehouden.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        // Simple form handling for demonstration
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const formMessage = document.getElementById('formMessage');
+            formMessage.textContent = 'Bedankt voor uw bericht! We nemen zo snel mogelijk contact met u op.';
+            formMessage.className = 'form-message success';
+
+            // Reset form
+            this.reset();
+
+            // Hide message after 5 seconds
+            setTimeout(() => {
+                formMessage.textContent = '';
+                formMessage.className = 'form-message';
+            }, 5000);
+        });
+    </script>
+</body>
+</html>
